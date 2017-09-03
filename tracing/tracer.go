@@ -1,4 +1,4 @@
-package main
+package tracing
 
 import opentracing "github.com/opentracing/opentracing-go"
 
