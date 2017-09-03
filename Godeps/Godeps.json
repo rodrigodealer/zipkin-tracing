@@ -1,0 +1,123 @@
+{
+	"ImportPath": "github.com/rodrigodealer/zipkin-tracing",
+	"GoVersion": "go1.9",
+	"GodepVersion": "v79",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/Shopify/sarama",
+			"Comment": "v1.12.0-12-g2fd980e",
+			"Rev": "2fd980e23bdcbb8edeb78fc704de0c39a6567ffc"
+		},
+		{
+			"ImportPath": "github.com/apache/thrift/lib/go/thrift",
+			"Rev": "808d143245f4f5c30600fab31cf9db854cbf5b48"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.1.0-6-gadab964",
+			"Rev": "adab96458c51a58dc1783b3335dcce5461522e75"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-resiliency/breaker",
+			"Comment": "v1.0.0-6-gb1fe83b",
+			"Rev": "b1fe83b5b03f624450823b751b662259ffc6af70"
+		},
+		{
+			"ImportPath": "github.com/eapache/go-xerial-snappy",
+			"Rev": "bb955e01b9346ac19dc29eb16586c90ded99a98c"
+		},
+		{
+			"ImportPath": "github.com/eapache/queue",
+			"Comment": "v1.0.2-7-g44cc805",
+			"Rev": "44cc805cf13205b55f69e14bcb69867d1ae92f98"
+		},
+		{
+			"ImportPath": "github.com/go-logfmt/logfmt",
+			"Comment": "v0.3.0",
+			"Rev": "390ab7935ee28ec6b286364bba9b4dd6410cb3d5"
+		},
+		{
+			"ImportPath": "github.com/gogo/protobuf/proto",
+			"Comment": "v0.4-43-g1c2b16bc",
+			"Rev": "1c2b16bc280d6635de6c52fc1471ab962dc36ec9"
+		},
+		{
+			"ImportPath": "github.com/golang/snappy",
+			"Rev": "553a641470496b2327abcac10b36396bd98e45c9"
+		},
+		{
+			"ImportPath": "github.com/kr/logfmt",
+			"Rev": "b84e30acd515aadc4b783ad4ff83aff3299bdfe0"
+		},
+		{
+			"ImportPath": "github.com/opentracing-contrib/go-observer",
+			"Rev": "a52f2342449246d5bcc273e65cbdcfa5f7d6c63c"
+		},
+		{
+			"ImportPath": "github.com/opentracing/opentracing-go",
+			"Comment": "v1.0.2-4-g8ebe5d4",
+			"Rev": "8ebe5d4e236eed9fd88e593c288bfb804d630b8c"
+		},
+		{
+			"ImportPath": "github.com/opentracing/opentracing-go/ext",
+			"Comment": "v1.0.2-4-g8ebe5d4",
+			"Rev": "8ebe5d4e236eed9fd88e593c288bfb804d630b8c"
+		},
+		{
+			"ImportPath": "github.com/opentracing/opentracing-go/log",
+			"Comment": "v1.0.2-4-g8ebe5d4",
+			"Rev": "8ebe5d4e236eed9fd88e593c288bfb804d630b8c"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing/flag",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing/thrift/gen-go/scribe",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing/thrift/gen-go/zipkincore",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing/types",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/openzipkin/zipkin-go-opentracing/wire",
+			"Comment": "v0.3.0",
+			"Rev": "a3f24586d6771f7a52012fc17b05a3f781592173"
+		},
+		{
+			"ImportPath": "github.com/pierrec/lz4",
+			"Comment": "v1.0-8-g5a3d224",
+			"Rev": "5a3d2245f97fc249850e7802e3c01fad02a1c316"
+		},
+		{
+			"ImportPath": "github.com/pierrec/xxHash/xxHash32",
+			"Comment": "v0.1-11-ga0006b1",
+			"Rev": "a0006b13c722f7f12368c00a3d3c2ae8a999a0c6"
+		},
+		{
+			"ImportPath": "github.com/rcrowley/go-metrics",
+			"Rev": "1f30fe9094a513ce4c700b9a54458bbb0c96996c"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "02ac38e2528ff4adea90f184d71a3faa04b4b1b0"
+		}
+	]
+}
